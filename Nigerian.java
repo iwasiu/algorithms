@@ -9,7 +9,7 @@ static String education = "average";
         human.setAge(34);
         System.out.println("The age has been changed to : " + human.getAge());
     }
-      
+
     public static String setColor(){
         return "A Nigerian is proud to be "+color;
     }
