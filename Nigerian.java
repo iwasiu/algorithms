@@ -1,6 +1,8 @@
 public class Nigerian extends Human {
 static String color = "black";
 static String education = "average";
+static String hair;
+
     public static void main(String[] args) {
         Human human = new Human();
         System.out.println(Human.walk());
@@ -16,4 +18,7 @@ static String education = "average";
     public static String setEducation(){
         return "Nigeria's style of education is on the "+education;
     }    
+    public static hair(){
+        return "Nigerians' hair is always "+ color;
+    }
 }
