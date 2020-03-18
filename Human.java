@@ -2,7 +2,9 @@ public class Human {
     static int legs = 2;
     static int hand = 2;
     private int age;
+    String hair;
     String color;
+
     public enum Education {
         PRIMARY, SECONDARY, TERTIARY
     };
@@ -21,5 +23,11 @@ public class Human {
 
     public int getAge() {
         return this.age;
+    }
+    public void setHair(String newHair) {
+        this.hair = newHair;
+    }
+    public String getHair() {
+        return this.hair;
     }
 }
